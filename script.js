@@ -161,6 +161,18 @@ certGrid.innerHTML = certificates
 --------------------------------------------------------- */
 const projects = [
   {
+    title: '1Moby — Competency Assessment & LMS',
+    desc: 'ระบบประเมินสมรรถนะและ LMS สำหรับองค์กร กำลังพัฒนาในรายวิชา CS497 และ CS498',
+    detail: 'โปรเจกต์ 1Moby เป็นระบบ Competency Assessment & LMS Engagement System สำหรับองค์กร ที่กำลังพัฒนาในรายวิชา CS497 และ CS498 รองรับการประเมิน Core, Managerial และ Functional Competency, วิเคราะห์ Gap และสร้างแผนพัฒนารายบุคคล (IDP), ระบบเรียนรู้ผ่าน LMS พร้อม Quiz และใบรับรอง, ระบบภารกิจประจำวัน/สัปดาห์และคะแนนสะสมเพื่อสร้างการมีส่วนร่วมของพนักงาน',
+    tags: ['LMS', 'Competency Assessment', 'CS497', 'CS498'],
+    images: [
+      'assets/project-1moby-1.png',
+      'assets/project-1moby-2.png',
+      'assets/project-1moby-3.png',
+      'assets/project-1moby-4.png',
+    ],
+  },
+  {
     title: 'BU Cyber Mini Hackathon 2025',
     desc: 'รางวัลชนะเลิศอันดับที่ 1 การแข่งขัน BU Cyber Mini Hackathon 2025 ด้านความมั่นคงปลอดภัยไซเบอร์',
     detail: 'ได้เข้าร่วมการเเข่งขัน Bu Cyber Mini Hackathon 2025 ในหัวข้อ Operational Security in the Digital Age \ โดยโปรเจคที่เราพัฒนาเเละได้รับรางวัลชนะเลิศที่1 คือ Project Clean Access ที่เกี่ยวกับระบบบริษัทโดยตรงในด้านของ HR IT \ โดยทำร่วมกันกับ นางสาววรัชนันท์ หยั่งถึง เเละ นางสาวสุภาภรณ์ ขันทะควน  ',
