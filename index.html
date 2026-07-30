@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ===== SEO ===== -->
+  <title>Ketsara Yuyen | Computer Science Student &amp; Software Developer</title>
+  <meta name="description" content="Portfolio ของ Ketsara Yuyen นักศึกษาวิทยาการคอมพิวเตอร์ สนใจด้าน Software Development และ Web Development พร้อมฝึกงานและร่วมงานสาย Developer" />
+  <meta name="keywords" content="portfolio, computer science, software developer, web developer, นักศึกษาวิทยาการคอมพิวเตอร์, ฝึกงาน" />
+  <meta name="author" content="Ketsara Yuyen" />
+  <meta property="og:title" content="Ketsara Yuyen | Computer Science Student" />
+  <meta property="og:description" content="Portfolio นักศึกษาวิทยาการคอมพิวเตอร์ สาย Software Development" />
+  <meta property="og:type" content="website" />
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%237A8450'/%3E%3Ctext x='50' y='68' font-size='52' text-anchor='middle' fill='white' font-family='Arial'%3EK%3C/text%3E%3C/svg%3E" />
+
+  <!-- ===== Fonts (Kanit) ===== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== แถบแสดงความคืบหน้าการเลื่อนหน้าจอ ===== -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- ===== แถบนำทาง (Navbar) ===== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="logo">Ketsara<span>.</span></a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link">หน้าแรก</a>
+        <a href="#about" class="nav-link">เกี่ยวกับฉัน</a>
+        <a href="#skills" class="nav-link">ทักษะ</a>
+        <a href="#certificates" class="nav-link">ใบรับรอง</a>
+        <a href="#projects" class="nav-link">ผลงาน</a>
+        <a href="#contact" class="nav-link">ติดต่อ</a>
+      </nav>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="เปิดเมนู" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============================================================
+         1. HOME — รูปโปรไฟล์ / ชื่อ / ตำแหน่ง / คำแนะนำตัว / ปุ่ม CTA
+    ============================================================ -->
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+
+        <div class="hero-avatar reveal">
+          <div class="avatar-ring">
+            <img
+              src="assets/profile.jpg"
+              alt="รูปโปรไฟล์ของ Ketsara Yuyen"
+              class="avatar-img"
+              onerror="this.style.display='none'; document.getElementById('avatarFallback').style.display='flex';"
+            />
+            <div id="avatarFallback" class="avatar-fallback">KY</div>
+          </div>
+          <div class="avatar-deco deco-1"></div>
+          <div class="avatar-deco deco-2"></div>
+        </div>
+
+        <div class="hero-content reveal">
+          <h1 class="hero-title">เกสรา อยู่เย็น</h1>
+          <p class="hero-role">Ketsara Yuyen</p>
+          <p class="hero-desc">
+            นักศึกษาวิทยาการคอมพิวเตอร์ (Computer Science)มหาวิทยาลัยกรุงเทพ ที่สนใจด้าน IT Audit Cybersecurity
+            Risk Management Data Anylysis พื้นฐานด้านการพัฒนาโปรแกรมและการวิเคราะห์ข้อมูล พร้อมพัฒนาความรู้และทักษะผ่านการลงมือปฏิบัติจริง มีความรับผิดชอบ 
+            สามารถปรับตัวและทำงานร่วมกับผู้อื่นได้ดี และมุ่งมั่นพัฒนาตนเองเพื่อเติบโตในสายงานเทคโนโลยีสารสนเทศ
+          </p>
+
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">
+              Contact Me
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-cue" aria-label="เลื่อนดูเพิ่มเติม"><span></span></a>
+    </section>
+
+    <!-- ============================================================
+         2. ABOUT ME — ประวัติย่อ / เป้าหมาย / ความสนใจ
+    ============================================================ -->
+    <section id="about" class="section">
+      <div class="container">
+        <p class="section-eyebrow reveal">About Me</p>
+
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              ปัจจุบันกำลังศึกษาระดับปริญญาตรี สาขาวิทยาการคอมพิวเตอร์
+              คณะเทคโนโลยีสารสนเทศและนวัตกรรม มหาวิทยาลัยกรุงเทพ
+              มีความสนใจด้าน <strong>การพัฒนาซอฟต์แวร์</strong> <strong>การพัฒนาเว็บ</strong>
+              และ <strong>ความมั่นคงปลอดภัยไซเบอร์</strong>
+            </p>
+            <p>
+              มีความกระตือรือร้นในการเรียนรู้เทคโนโลยีใหม่ ๆ สามารถทำงานร่วมกับผู้อื่นได้ดี
+              และพร้อมนำความรู้ไปประยุกต์ใช้ในการฝึกงานและพัฒนาทักษะในสายงานเทคโนโลยีสารสนเทศ
+            </p>
+          </div>
+
+          <div class="about-highlights reveal">
+            <div class="education-card">
+              <h3>การศึกษา</h3>
+              <span class="education-year">2566 – ปัจจุบัน</span>
+
+              <p class="education-th">
+                กำลังศึกษาระดับปริญญาตรี สาขาวิชาวิทยาการคอมพิวเตอร์<br />
+                คณะเทคโนโลยีสารสนเทศและนวัตกรรม<br />
+                มหาวิทยาลัยกรุงเทพ
+                GPA:2.63
+              </p>
+
+              <hr class="education-divider" />
+
+              <span class="education-year">2023 – Present</span>
+              <p class="education-en">
+                Bachelor of Science in Computer Science (Currently Pursuing)<br />
+                School of Information Technology and Innovation<br />
+                Bangkok University
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         3. SKILLS — แสดงเป็นรายการข้อความ (render ผ่าน JS จาก script.js)
+    ============================================================ -->
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <p class="section-eyebrow reveal">Skills</p>
+        <h2 class="section-title reveal">ทักษะความสามารถ</h2>
+        <p class="section-desc reveal">เครื่องมือและภาษาโปรแกรมที่ผมใช้งานในการพัฒนาซอฟต์แวร์</p>
+
+        <div class="skills-groups" id="skillsGrid"></div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         4. CERTIFICATES — Card พร้อมปุ่ม View Certificate
+    ============================================================ -->
+    <section id="certificates" class="section">
+      <div class="container">
+        <p class="section-eyebrow reveal">Certificates</p>
+        <h2 class="section-title reveal">ใบรับรองและผลงานอบรม</h2>
+        <p class="section-desc reveal">รวมใบรับรองจากคอร์สเรียนและกิจกรรมที่เข้าร่วม </p>
+
+        <div class="cert-grid" id="certGrid"></div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         5. PROJECTS — Card พร้อมรูปตัวอย่าง (render ผ่าน JS)
+    ============================================================ -->
+    <section id="projects" class="section section-alt">
+      <div class="container">
+        <p class="section-eyebrow reveal">Projects</p>
+        <h2 class="section-title reveal">ผลงานของฉัน</h2>
+        <p class="section-desc reveal">ตัวอย่างโปรเจกต์ที่พัฒนาขึ้นระหว่างเรียนและฝึกฝนด้วยตนเอง</p>
+
+        <div class="projects-grid" id="projectsGrid"></div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         6. CONTACT — ช่องทางติดต่อ + ฟอร์ม Send Message
+    ============================================================ -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title reveal">Contact</h2>
+
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <p class="contact-lead">
+              หากมีปัญหาเเละต้องการติดต่อเเละสอบถามเพิ่มเติม
+              สามารถติดต่อได้ที่ Contact ด้านล่างค่ะ
+            </p>
+
+            <div class="contact-list">
+              <div class="contact-item">
+                <span class="contact-icon">👤</span>
+                <span class="contact-text">
+                  <span class="contact-label">Name</span>
+                  <span class="contact-value">เกสรา อยู่เย็น (Ketsara Yuyen)</span>
+                </span>
+              </div>
+              <a href="tel:0000000000" class="contact-item">
+                <span class="contact-icon">📞</span>
+                <span class="contact-text">
+                  <span class="contact-label">Phone</span>
+                  <span class="contact-value">081-873-4535</span>
+                </span>
+              </a>
+              <a href="mailto:ketsara.yuye@bumail.net" class="contact-item">
+                <span class="contact-icon">✉️</span>
+                <span class="contact-text">
+                  <span class="contact-label">Email</span>
+                  <span class="contact-value">ketsara.yuye@bumail.net</span>
+                </span>
+              </a>
+            </div>
+          </div>
+
+          <form class="contact-form reveal" id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="name">ชื่อของคุณ</label>
+              <input type="text" id="name" name="name" placeholder="กรอกชื่อ-นามสกุล" required />
+              <span class="form-error" id="nameError"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="email">อีเมล</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" required />
+              <span class="form-error" id="emailError"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="message">ข้อความ</label>
+              <textarea id="message" name="message" rows="5" placeholder="เขียนข้อความถึงฉัน..." required></textarea>
+              <span class="form-error" id="messageError"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-full">
+              Send Message
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13"/><path d="M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+            </button>
+
+            <p class="form-success" id="formSuccess" role="status">ส่งข้อความเรียบร้อยแล้ว ขอบคุณค่ะ</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Modal: Read More ของ Projects ===== -->
+  <div class="modal" id="projectModal">
+    <div class="modal-card">
+      <button type="button" class="modal-close" id="modalClose" aria-label="ปิด">&times;</button>
+      <div id="modalImageWrap" class="modal-image"></div>
+      <div class="modal-body">
+        <h3 id="modalTitle"></h3>
+        <div class="project-tags" id="modalTags"></div>
+        <p id="modalDetail"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Ketsara Yuyen. All rights reserved.</p>
+      <a href="#home" class="back-to-top">กลับด้านบน ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
