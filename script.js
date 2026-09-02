@@ -136,6 +136,12 @@ const certificates = [
     image: 'assets/cert-foundation.png',
     link: 'assets/cert-foundation.pdf',
   },
+  {
+    title: 'Cloud Security Standard for Practitioner',
+    desc: 'หลักสูตรออนไลน์ Cloud Security Standard for Practitioner ผ่านระบบ NCSA e-Learning จำนวน 11 ชั่วโมง',
+    image: 'assets/cert-cloudsecurity.png',
+    link: 'assets/cert-cloudsecurity.pdf',
+  },
 ];
 
 const certGrid = document.getElementById('certGrid');
@@ -176,14 +182,14 @@ const projects = [
     title: 'BU Cyber Mini Hackathon 2025',
     desc: 'รางวัลชนะเลิศอันดับที่ 1 การแข่งขัน BU Cyber Mini Hackathon 2025 ด้านความมั่นคงปลอดภัยไซเบอร์',
     detail: 'ได้เข้าร่วมการเเข่งขัน Bu Cyber Mini Hackathon 2025 ในหัวข้อ Operational Security in the Digital Age \ โดยโปรเจคที่เราพัฒนาเเละได้รับรางวัลชนะเลิศที่1 คือ Project Clean Access ที่เกี่ยวกับระบบบริษัทโดยตรงในด้านของ HR IT \ โดยทำร่วมกันกับ นางสาววรัชนันท์ หยั่งถึง เเละ นางสาวสุภาภรณ์ ขันทะควน  ',
-    tags: ['Cybersecurity', 'Hackathon', '🏆 อันดับที่ 1'],
+    tags: ['Cybersecurity', 'Hackathon', 'อันดับที่ 1'],
     images: ['assets/hackathon2025-1.jpg', 'assets/hackathon2025-2.jpg'],
   },
   {
     title: 'BU Cyber Fortress Challenge & Career Expo 2026',
     desc: 'รางวัลชมเชย การแข่งขัน BU Hackathon 2026 (Final Round Competition) ด้านความมั่นคงปลอดภัยไซเบอร์',
     detail: 'เข้าร่วมการแข่งขัน BU Cyber Fortress Challenge & Career Expo - BU Hackathon 2026 (Final Round Competition) จัดขึ้นเมื่อวันที่ 10 กุมภาพันธ์ 2569 ณ BU Diamond Hall ได้รับรางวัลชมเชย มูลค่า 3,000 บาท โดยทำร่วมกันกับ นางสาววรัชนันท์ หยั่งถึง เเละ นางสาวณัฐวรรณ ปัญหาชัย ',
-    tags: ['Cybersecurity', 'Hackathon', '🎖️ รางวัลชมเชย'],
+    tags: ['Cybersecurity', 'Hackathon', 'รางวัลชมเชย'],
     images: ['assets/hackathon2026-1.jpg', 'assets/hackathon2026-2.jpg'],
   },
 ];
